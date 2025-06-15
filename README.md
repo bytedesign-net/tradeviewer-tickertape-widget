@@ -22,12 +22,12 @@ Tradeviewer Tickertape Widget は、Trading View の Ticker Tape ウィジェッ
 git clone https://github.com/bytedesign-net/webpdecoder
 cd tradeviewer-tickertape-widget
 npm install
-npm start
+npm run make
 ```
 
 ## Usage
 
-アプリケーションを起動すると、タスクバーの右上に Ticker Tape ウィジェットが表示されます。
+out\make\squirrel.windows\x64\tradeviewer-tickertape-widget-1.0.0 Setup.exe を実行すると Tradeviewer Tickertape Widget ウィジェットが表示されます。
 
 ## Author
 
