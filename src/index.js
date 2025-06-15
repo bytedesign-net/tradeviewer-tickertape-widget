@@ -52,7 +52,7 @@ const createWindow = () => {
   });
 
   setInterval(() => {
-    mainWindow.loadFile(path.join(__dirname, "index.html"));
+    mainWindow.webContents.reload();
   }, 180000);
 };
 
