@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Trading View</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, " Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: auto;
+      max-width: 38rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget" data-widget-type="ticker-tape"
+      data-symbols="FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,FX_IDC:EURUSD,BITSTAMP:BTCUSD" data-show-symbol-logo="true"
+      data-is-transparent="true" data-display-mode="compact" data-color-theme="dark" data-locale="ja">
+    </div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+      async>
+        {
+          "symbols": [
+            {
+              "proName": "FOREXCOM:SPXUSD",
+              "title": "S&P 500 Index"
+            },
+            {
+              "proName": "FOREXCOM:NSXUSD",
+              "title": "US 100 Cash CFD"
+            },
+            {
+              "proName": "FX_IDC:EURUSD",
+              "title": "EUR to USD"
+            },
+            {
+              "proName": "BITSTAMP:BTCUSD",
+              "title": "Bitcoin"
+            }
+          ],
+            "showSymbolLogo": true,
+              "isTransparent": true,
+                "displayMode": "compact",
+                  "colorTheme": "dark",
+                    "locale": "ja"
+        }
+      </script>
+  </div>
+</body>
+
+</html>
