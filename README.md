@@ -33,6 +33,6 @@ npm start
 
 bytedesign-net
 
-## ライセンス
+## License
 
 "Tradeviewer Tickertape Widget" is under MIT license.
