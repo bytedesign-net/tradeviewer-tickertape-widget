@@ -50,10 +50,6 @@ const createWindow = () => {
   mainWindow.on("blur", () => {
     mainWindow.setOpacity(0.7);
   });
-
-  setInterval(() => {
-    mainWindow.webContents.reload();
-  }, 180000);
 };
 
 // Electronの初期化が完了し、ブラウザウィンドウを作成する準備ができたときに、このメソッドが呼び出されます。
